@@ -1,0 +1,223 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background-color: #011f35;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px white;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 10vh;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+li{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.search{
+    width: 25px;
+    height: 25px;
+}
+.search svg{
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg);
+}
+
+.title{
+    position: relative;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    background-image: url(images/logo_new_2021.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #344c5dcb;
+}
+h1{
+    font-size: 4rem;
+    margin: 0;
+    z-index: 2;
+}
+.title p{
+    z-index: 2;
+    font-size: 1.2rem;
+}
+.links{
+    z-index: 2;
+    display: flex;
+    gap: 30px;
+}
+
+.green, .red{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.green{
+    background-color: #008a77;
+}
+.red{
+    background-color: #be1622;
+}
+.last-articles{
+    width: 80%;
+    margin: auto;
+    border-bottom: solid 2px white;
+}
+.last-articles h2, .last-rea h2{
+    text-align: center;
+    margin: 50px;
+}
+.articles-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+article{
+    border: solid 2px white;
+}
+article figure{
+    border-bottom: solid 2px white;
+    width: 100%;
+    margin: 0;
+}
+article figure img{
+    width: 100%;
+}
+article p, article h3{
+    margin: 20px;
+}
+article h3{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.desc{
+    border-top: solid 2px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.benoit{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+.benoit img{
+    border-radius: 50%;
+}
+.auteur{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.creation p{
+    margin: 0;
+}
+.surligne{
+    text-decoration: underline;
+}
+.more{
+    display: block;
+    width: max-content;
+    text-align: center;
+    padding: 20px;
+    background-color: #008a77;
+}
+#more{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+.last-rea{
+    width: 80%;
+    margin: auto;
+}
+.realisation-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer{
+    border-top: solid 2px white;
+}
+.top-footer{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px white;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+
+}
+footer figure{
+    width: 400px;
+}
+footer figure img{
+    width: 100%;
+}
+.bottom-footer{
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social svg{
+    width: 40px;
+    height: 40px;
+}
+footer p {
+    text-align: center;
+    margin: 20px;
+}
